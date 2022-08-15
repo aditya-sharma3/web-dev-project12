@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+/* navigation bar */
+
+nav{
+    background-color: #636c79;
+    width: 100%;
+    height: 90vh;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list{
+    list-style-type: none;
+}
+
+.list-item{
+    display: inline;
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.list-item button{
+    padding: 8px 25px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.list-item button:hover{
+    box-shadow: 2px 2px 5px #ffffff;
+}
+
+
+/* Introduction landing */
+
+.introduction{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.left-section{
+    width: 45%;
+    height: 80vh;
+}
+
+.left-section img{
+    width: 100%;
+}
+
+.right-section{
+    width: 50%;
+    height: 80vh;
+    text-align: justify;
+}
+
+.introduction-heading{
+    font-size: 2.5rem;
+    color: #ffffff;
+    /* text-align: justify; */
+}
+
+.right-section p{
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.input-container{
+    width: 60%;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 3px 5px;
+    height: 9vh;
+}
+
+.input-container input{
+    padding: 10px 25px;
+    width: 50%;
+    height: 6vh;
+    border: none;
+    outline: none;
+}
+
+.far{
+    font-size: 200%;
+    padding: 0px 5px;
+}
+
+.input-container button{
+    background-color: #636c79;
+    color: #ffffff;
+    padding: 12px 28px;
+    border: none;
+}
+
+/* Business target */
+
+.business-target{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5% 3%;
+}
+
+.business-count{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.team-image{
+    width: 100%;
+    height: 70vh;
+    padding-top: 5%;
+}
+
+.team-image img{
+    width: 60%;
+    height: 60vh;
+}
+
+.business-target-intro  h1{
+    font-size: 2.3rem;
+}
+
+/* web development section */
+
+.web-development h1{
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.web-dev-description{
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 5%;
+}
+
+.web-dev-left{
+    width: 45%;
+    height: 50vh;
+}
+
+.talk{
+    padding: 2% 4%;
+    background-color: #8bb7a2;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+}
+
+.web-dev-left h3{
+    font-size: 1.5rem;
+}
+
+.web-dev-left p{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.web-dev-right{
+    width: 50%;
+    height: 50vh;
+}
+
+.web-dev-right img{
+    width: 100%;
+    height: 50vh;
+}
+
+/* Strategies container */
+.strategies-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+.strategies-left{
+    width: 50%;
+}
+
+.strategies-left img{
+    width: 100%;
+}
+
+.strategies-right{
+    width: 50%;
+    margin-left: 2%;
+}
+
+.strategies-right p{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+/* book section */
+.book-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    height: 50vh;
+}
+
+.book-left{
+    width: 50%;
+    padding-right: 2%;
+}
+
+.book-left p{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.book-left h1{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.book-right{
+    width: 50%;
+    height: 60vh;
+}
+
+.book-left img{
+    width: 100%;
+    /* height: 60vh; */
+}
+
+/* Card Section */
+.card img{
+    width: 15%;
+}
+
+.card{
+    /* background-color: #F5F5F5; */
+    width: 30%;
+    margin-right: 10px;
+    /* text-align: center; */
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+
+.card-description{
+    width: 70%;
+    /* text-align: center; */
+}
+
+.card-description p{
+    text-align: justify;
+}
+
+.card-introduction{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5%;
+}
+
+.introduction-left{
+    width: 50%;
+}
+
+.introduction-left h1{
+    font-size: 1.8rem;
+}
+
+.introduction-right{
+    width: 50%;
+}
+
+/* footer section */
+.footer-icon{
+    width: 5%;
+    margin-left: 1%;
+}
+
+.footer-container{
+    background-color: #10181d;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 2%;
+}
+
+.footer-hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    width: 100%;
+}
+
+.social-media-icons{
+    width: 100%;
+    padding: 1% 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.line{
+    background-color: #ffffff;
+    width: 100%;
+    height: 2px;
+    color: #ffffff;
+    margin: 2% 0;
+}
+
+.footer-resources{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bold {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.list-1, .list-2, .list-3, .list-4, .list-5{
+    color: #ffffff;
+}
